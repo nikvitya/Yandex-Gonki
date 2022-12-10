@@ -56,7 +56,6 @@ public class Main {
         // на значение points, пройденное расстояние - на значение distance.
         car.score += points;
         car.kilometersTravelled += distance;
-
     }
 
     private static int makeRace(Car userCar, Car opponentCar, int distance) {
